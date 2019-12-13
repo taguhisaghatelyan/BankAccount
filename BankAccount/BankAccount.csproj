@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bank_Account.cs" />
+    <Compile Include="InvalidAmountException.cs" />
+    <Compile Include="InvalidAmountForRemovingMoneyException.cs" />
+    <Compile Include="InvalidInterestrateException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
